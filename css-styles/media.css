@@ -1,0 +1,22 @@
+@media screen and (min-width: 992px){
+    
+    .container {
+        margin: 0;
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    header, main, footer {
+        width: 45%;
+    }
+
+    picture img {
+        height: 100vh;
+        width: 45%;
+        float: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

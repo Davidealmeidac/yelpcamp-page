@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+}
+
+header {
+    margin: 15px 0;
+}
+
+#logo {
+    padding: 0 25px;
+}
+
+picture img {
+    width: 100%;
+    height: 370px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+main h1 {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+main p {
+    line-height: 1.5em;
+    color: #3e3e3e;
+    margin: 10px 0;
+}
+
+ul#vants {
+    display: flex;
+    flex-direction: column;
+}
+
+#vants li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#vants li p {
+    margin-left: 7px;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.viewbtn {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+footer {
+    margin: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+footer h4 {
+    font-weight: 400;
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li svg {
+    width: 130px;
+    border-radius: 5px;
+}

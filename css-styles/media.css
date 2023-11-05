@@ -5,10 +5,16 @@
         height: 100%;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     header, main, footer {
-        width: 45%;
+        width: 48%;
+    }
+
+    main, footer {
+        justify-content: center;
     }
 
     picture img {

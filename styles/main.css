@@ -96,3 +96,32 @@ main p {
     overflow-x: hidden;
     margin-bottom: 10px;
 }
+
+@media screen and (min-width: 992px) {
+
+    #container {
+        display: grid;
+        grid-template-areas: 
+        "nav image"
+        "main image";
+
+        grid-template-columns: 50%;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    main {
+        grid-area: main;
+        margin-bottom: 0;
+    }
+
+    #image {
+        grid-area: image;
+        height: 100vh;
+        background-image: url(../Assets/hero-image.jpg);
+        background-position: center bottom;
+        margin-bottom: 0;
+    }
+}

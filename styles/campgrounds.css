@@ -169,6 +169,22 @@ footer {
 
     .camp-container button {
         margin-top: auto;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+
+    #camps {
+        margin-right: 50px;
+    }
+
+    .camp-container {
+        max-width: 33%;
+    }
+    
+    .camp-container button {
+        margin-top: auto;
         background-color: #fff;
     }
 
@@ -182,17 +198,5 @@ footer {
 
     .camp-container button:hover a {
         color: #fff;
-    }
-    
-}
-
-@media screen and (min-width: 992px) {
-
-    #camps {
-        margin-right: 50px;
-    }
-
-    .camp-container {
-        max-width: 33%;
     }
 }

@@ -19,6 +19,10 @@ nav {
     padding: 15px 20px 30px 20px;
 }
 
+#home {
+    display: none;
+}
+
 nav i {
     font-size: 1.5em;
     cursor: pointer;
@@ -36,6 +40,11 @@ main h1 {
 
 main p {
     line-height: 1.5em;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
 }
 
 main #scamps {
@@ -119,4 +128,51 @@ margin-bottom: 15px;
 
 footer {
     margin: 30px 20px;
+}
+
+@media screen and (min-width: 768px) {
+    #home {
+        display: block;
+        margin-right: auto;
+        margin-left: 15px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: .95em;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    main {
+        max-width: 45%;
+    }
+
+    main form {
+        flex-direction: row;
+    }
+
+    main #scamps {
+        max-width: 60%;
+        margin-right: 10px;
+    }
+
+    main button {
+        max-width: 30%;
+    }
+
+    #camps {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 50px;
+    }
+
+    .camp-container {
+        max-width: 30%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .camp-container button {
+        margin-top: auto;
+    }
+    
 }

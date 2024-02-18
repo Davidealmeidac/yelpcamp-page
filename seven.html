@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="styles/campgrounds.css">
-    <title>Welcome to YelpCamp! | Davi de Almeida</title>
+    <link rel="stylesheet" href="styles/individual-view.css">
+    <title>Seven Sisters Waterfall Individual View | <YelpCamp class="com"></YelpCamp>
+    </title>
 </head>
 
 <body>
@@ -26,61 +27,43 @@
                     </svg>
                 </a>
             </div>
-            <a id="home" href="index.html">Home</a>
             <div id="menu">
                 <div id="menu-icon">
                     <i class='bx bx-menu'></i>
                 </div>
             </div>
         </nav>
-        <main>
-            <h1>Welcome to YelpCamp!</h1>
-            <p>View our hand-picked campgrounds from all over the world, or add your own.</p>
-            <form>
-                <input type="search" name="scamps" id="scamps" placeholder="Search for camps">
-                <button>Search</button>
-            </form>
-            <a href="#">Or add your own campground</a>
-        </main>
 
-        <div id="camps">
-            <div class="camp-container">
-                <img src="Assets/Camp Images/Compressed Images/Mount Ulap.jpg">
-                <h2>Mount Ulap</h2>
-                <p>One of most famous hikes in Benguet is Mt Ulap in Togon.</p>
-                <button><a href="mt-ulap.html">View Campground</a></button>
+        <main>
+            <div class="ind-camp-container">
+                <img src="Assets/Camp Images/High Quality Images/Seven Sisters Waterfall.jpg" alt="">
+                <h4>Seven Sisters Waterfall</h4>
+                <p class="price">$104.99/night</p>
+                <p class="description">
+                    Seven Sister Waterfall is a 7.7 kilometer moderately trafficked point-to-point trail located near Tuba, Benguet, Phippines that offers the chance to see wildlife and is rated as moderate. Thw trail is primarily used for hiking.
+                </p>
+                <p class="autor">Submitted by Andrew Mike</p>
             </div>
-            <div class="camp-container">
-                <img src="Assets/Camp Images/Compressed Images/Calaguas Island.jpg">
-                <h2>Calaguas Islands</h2>
-                <p>A paradise of islands that can rival the white sand beauty of Boracay.</p>
-                <button><a href="calaguas.html">View Campground</a></button>
+            <div class="coments">
+                <h5 class="coment-autor">Adam Jones</h5>
+                <p class="hour-post">13h ago</p>
+                <p class="text-coment">Honestly one of the best experiences ever, took us a while to figure out  how to get there but it was amazing!</p>
+                <hr>
+                <h5 class="coment-autor">Isaac Dylan</h5>
+                <p class="hour-post">1 day ago</p>
+                <p class="text-coment">Traveling changes you as a person, you gain more perspective, this is the perfect spot to do that.</p>
+                <hr>
+                <h5 class="coment-autor">Hudson Luca</h5>
+                <p class="hour-post">3 days ago</p>
+                <p class="text-coment">Definitely recommend going there, not too far and not a lot of people to ruin the experience.</p>
+                <hr>
+                <button id="vcamps"><a href="#"><i class='bx bx-message-rounded-dots'></i> Leave a Review</a></button>
             </div>
-            <div class="camp-container">
-                <img src="Assets/Camp Images/Compressed Images/Onay Beach.jpg" alt="">
-                <h2>Onay Beach</h2>
-                <p>This is one of the best beach camping sites, beautiful and pristine.</p>
-                <button><a href="onay.html">View Campground</a></button>
-            </div>
-            <div class="camp-container">
-                <img src="Assets/Camp Images/Compressed Images/Seven Sisters Waterfall.jpg" alt="">
-                <h2>Seven Sisters Waterfall</h2>
-                <p>Theeven Sisters is the 39th tallest waterfall in Norway.</p>
-                <button><a href="seven.html">View Campground</a></button>
-            </div>
-            <div class="camp-container">
-                <img src="Assets/Camp Images/Compressed Images/Latik Riverside.jpg" alt="">
-                <h2>Latik Riverside</h2>
-                <p>Philippines is one of the most dazzling countries in all of Asia.</p>
-                <button><a href="latik.html">View Campground</a></button>
-            </div>
-            <div class="camp-container">
-                <img src="Assets/Camp Images/Compressed Images/Buloy Springs.jpg" alt="">
-                <h2>Buloy Springs</h2>
-                <p>This is one of the best beach camping sites, beautiful and pristine.</p>
-                <button><a href="buloy.html">View Campground</a></button>
-            </div>
+        </main>
+        <div id="map">
+            <img src="Assets/Map.png" alt="">
         </div>
+
         <footer>
             <div id="logo">
                 <svg width="118" height="27" viewBox="0 0 118 27" fill="none" xmlns="http://www.w3.org/2000/svg">

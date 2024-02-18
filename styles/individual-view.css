@@ -113,6 +113,13 @@ hr {
   transition: all 0.3s;
 }
 
+#map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 footer {
   margin: 30px 20px;
 }

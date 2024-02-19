@@ -123,3 +123,37 @@ hr {
 footer {
   margin: 30px 20px;
 }
+
+@media screen and (min-width: 992px) {
+  #container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: normal;
+    padding: 20px 50px;
+  }
+
+  nav {
+    width: 100%;
+    order: 1;
+  }
+
+  main {
+    width: 50%;
+    order: 3;
+  }
+
+  #vcamps {
+    margin-left: auto;
+  }
+
+  #map {
+    width: 30%;
+    order: 2;
+    margin-bottom: auto;
+  }
+
+  footer {
+    width: 100%;
+    order: 4;
+  }
+}
